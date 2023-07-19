@@ -37,6 +37,9 @@ h4 {
 .navbar_color .nav-link {
   color: white !important;
 }
+.nav-link:hover {
+  color: #342d63 !important;
+}
 
 .navbar_color {
   background-color: #b995db !important;
@@ -91,4 +94,13 @@ footer {
 footer {
   background-color: #b995db;
   color: #ffffff;
+}
+
+.langue {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.langue:hover {
+  color: #342d63;
 }
