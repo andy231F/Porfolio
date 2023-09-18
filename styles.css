@@ -11,15 +11,16 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  min-height: 70%;
+  max-height: 70%;
   opacity: 0.4;
   z-index: -1;
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.bg-image img {
-  width: 100%;
-  height: auto;
-}
 .newfont {
   font-family: "Caprasimo", cursive;
 }
@@ -103,4 +104,51 @@ footer {
 
 .langue:hover {
   color: #342d63;
+}
+h2 {
+  font-size: 30px !important; /* Adjust font size for smaller screens */
+  padding-bottom: 2%;
+}
+
+.img-logo {
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 950px) {
+  p {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+  .space {
+    padding: 10px; /* Reduce padding to 10px on smaller screens */
+  }
+  .img-logo {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  .bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 25%;
+    min-height: 45%;
+    opacity: 0.4;
+    z-index: -1;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 }
