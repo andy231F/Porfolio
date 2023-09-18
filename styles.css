@@ -106,7 +106,7 @@ footer {
   color: #342d63;
 }
 h2 {
-  font-size: 30px !important; /* Adjust font size for smaller screens */
+  font-size: 30px !important;
   padding-bottom: 2%;
 }
 
@@ -125,10 +125,10 @@ video {
 
 @media (max-width: 950px) {
   p {
-    font-size: 16px; /* Adjust font size for smaller screens */
+    font-size: 16px;
   }
   .space {
-    padding: 10px; /* Reduce padding to 10px on smaller screens */
+    padding: 10px;
   }
   .img-logo {
     height: auto;
